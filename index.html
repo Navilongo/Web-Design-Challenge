@@ -3,12 +3,41 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Data Visualization</title>
+    <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
-    
+    <!-- Overall Grid-->
+    <div class = "container">
+        <div class = "Header">
+            <div class="col-md-12">
+            <h1> API and Matplotlib Visualizations </h1>
+            <h2> Summary: Lattitude vs. X</h2>
+            </div>
+        </div>
+        <div class = "Row1">
+            <div class="col-md-4">
+                <a target="_blank" href="Images/lat_temp.png">
+                    <img src="Images/lat_temp.png" alt="Lattitude vs Temperature">
+                  </a>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    As part of the json and api practice, we have been tasked with demonstrating our 
+                    ability to pull information from the online databases and compile it to show meaningful information. 
+                    In this instance, we are tasked to prove important geography facts like, does it really get hotter the closer you are to the equator,
+                     and is there greater wind currents the further away you are from the equator?
+                </p>
+                <p> To better visualize the information compiled from over 500 different random cities, we used Matplotlib to 
+                    create graphs which can be easier analyzed than the written data. On these pages, you will find graphs that visualize the impact of: 
+                    Lattitude vs. Humidity, Temperature, Cloudiness and the Wind. 
+
+                </p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
