@@ -1,0 +1,27 @@
+.sidebar {
+    height: 50px;
+    position: absolute;
+    right:-40px;
+    float: right;   
+
+}
+
+body {
+    background-color:gray;
+    display: inline-block;
+}
+
+h1 {
+color: green;    
+}
+
+.header {
+    clear: both;
+    color
+}
+
+.navbar li {
+    float: right;
+    display: inline-block;
+    padding: 5px;
+}

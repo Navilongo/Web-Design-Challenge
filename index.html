@@ -4,26 +4,55 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Data Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
     <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
 </head>
+<style>
+    body {
+      background-color: #dddddd;
+    }
+ 
+</style>
 <body>
+   
     <!-- Overall Grid-->
     <div class = "container">
+        <nav class ="navbar">
+            <ul>
+                <li>
+                    <a href="#">Plots</a>
+                </li>
+                <li>
+                    <a href="#">Comparison</a>
+                </li>
+                <li>
+                    <a href="#">Data</a>
+                </li>
+            </ul>
+        </nav>
         <div class = "Header">
             <div class="col-md-12">
-            <h1> API and Matplotlib Visualizations </h1>
-            <h2> Summary: Lattitude vs. X</h2>
+            <h3> Summary: Lattitude vs. X </h3>
             </div>
         </div>
         <div class = "Row1">
-            <div class="col-md-4">
+             <!-- sidebar 
+            <div class = "sidebar">
+                <a target="_blank" href="temperature.html"><img src="Images/lat_temp.png" alt= Lattitude vs Temperature"></a>
+                <a href="Images/lat_hum.png"><img src="Images/lat_hum.png" alt= Lattitude vs Humidity"></a>
+                <a href="Images/lat_wind.png"><img src="Images/lat_wind.png" alt= Lattitude vs Wind"></a>
+                <a href="Images/lat_cloud.png"><img src="Images/lat_cloud.png" alt= Lattitude vs Cloudiness"></a>
+            </div> -->
+            <div class="col-md-1">
                 <a target="_blank" href="Images/lat_temp.png">
                     <img src="Images/lat_temp.png" alt="Lattitude vs Temperature">
                   </a>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <p>
                     As part of the json and api practice, we have been tasked with demonstrating our 
                     ability to pull information from the online databases and compile it to show meaningful information. 
